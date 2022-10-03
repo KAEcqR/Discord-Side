@@ -1,0 +1,103 @@
+body { 
+    font-family: Arial;
+    background-color:rgb(223, 223, 255);
+    padding: 40px 0;
+}
+
+h3{
+    margin-top: 5px;
+    font-family:raleway;
+}
+
+h2 {
+    font-size: 28px;
+    font-family:raleway;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family:raleway;
+}
+span{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+section,
+header { 
+    padding: 20px 20px 60px 20px;
+}
+
+header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+header ul{ 
+    list-style: none;
+}
+
+li { 
+    margin-bottom: 15px;
+
+}
+
+.addres-icon {
+ width: 36px;
+ height: 36px;
+ margin-right: 10px;
+ padding: 8px;
+ vertical-align: middle;
+ border-radius: 25%;
+}
+
+.avatar { 
+    border-radius: 50%;
+    border: 10px solid cornflowerblue;
+}
+
+.tło {
+    background-color: cornflowerblue;
+}
+
+
+.hobby {
+list-style: none;
+padding: 0;
+display: flex;
+}
+
+.hobby li {
+width: 50%;
+display: flex;
+align-items: flex-start;
+margin-bottom:40px ;
+
+}
+
+.hobby div {
+margin-left: 20px;
+
+}
+
+ p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Arial Narrow Bold';
+}
+
+.dokument { 
+    box-shadow: 0 0 60px cornflowerblue;
+    width: 960px;
+    margin: 0 auto ;
+    background-color: white;
+}
